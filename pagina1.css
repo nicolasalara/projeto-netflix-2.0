@@ -1,0 +1,130 @@
+
+.body{
+    background-color: rgb(16, 16, 16);
+   
+}
+
+.titulo{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: #e50914;
+    padding-left: 0%;
+    margin: 0%;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    background-image: linear-gradient(to bottom, #000000 0%, #131314 50%, #1f2020 100%);
+    
+}
+.header{
+
+padding-top: 0%;
+padding-bottom: 1%;
+
+}
+.header2{
+
+    
+    padding-top: 2%;
+    
+    background-image: linear-gradient(to bottom, #1f2020 0%, #131314 20%, #000000 100%);
+}
+
+.bemvindo{
+
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    
+}
+
+
+.container {
+    text-align: center;
+}
+
+.btn {
+  
+    color: #333; /* Cor de fundo do botão */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold;
+    background-color: #ff0000;
+    padding: 20px 30px;
+    margin: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #db1414;
+    cursor: pointer;
+    border: none; /* Remove a borda padrão do botão */
+    font-family: "Poppins", serif;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+
+.link {
+    color: #000000; /* Cor do texto do link dentro do botão */
+    text-decoration: none; /* Remove a sublinhado padrão do link */
+}
+
+.link:hover {
+    color: #ff0000; /* vermelho ao passar o mouse */
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+.btn:hover {
+    background-color: #424040; /* cinza mais claro */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+ 
+.button-container {
+    text-align: center;
+}
+
+
+
+.image-container {
+    text-align: center;
+    margin-top: 50px;
+    display: flex; /* Transforma o container em um flex container */
+    justify-content: center; /* Centraliza os itens dentro do container */
+    cursor: pointer;
+  
+ 
+  
+}
+
+.image-container img {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+    margin-right: 20px; /* Adiciona uma margem de 20 pixels à direita */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+    
+}
+
+.image-container p {
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    color: black; /* Define a cor do texto como preta */
+    font-size: 18px; /* Define o tamanho da fonte em 18 pixels (ajuste conforme necessário) */
+}
+
+
+.image-container img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) translateY(-2px); /
+}
+
